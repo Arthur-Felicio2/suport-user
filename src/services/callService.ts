@@ -18,6 +18,7 @@ export interface Chamado {
     address?: string | null;
     status: string;
     criadoEm?: any;
+    slaNotificationId?: string;
 }
 
 const getChamadosRef = () => collection(db, 'alunos', ALUNO_ID, 'chamados');
@@ -41,6 +42,11 @@ export const callService = {
     async atualizarStatus(id: string, novoStatus: string): Promise<void> {
         const docRef = doc(db, 'alunos', ALUNO_ID, 'chamados', id);
         await updateDoc(docRef, { status: novoStatus });
+    },
+
+    async salvarSlaNotificationId(id: string, slaNotificationId: string): Promise<void> {
+        const docRef = doc(db, 'alunos', ALUNO_ID, 'chamados', id);
+        await updateDoc(docRef, { slaNotificationId });
     },
 
     async criarChamado(dados: Omit<Chamado, 'id' | 'status' | 'criadoEm'>): Promise<string> {

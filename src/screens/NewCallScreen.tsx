@@ -12,6 +12,7 @@ import {
 import * as ImagePicker from 'expo-image-picker';
 import * as Location from 'expo-location';
 import { callService } from '../services/callService';
+import { scheduleSlaNotification } from '../services/notificationService';
 import { COLORS } from '../theme/colors';
 
 export default function NewCallScreen({ navigation }: any) {
@@ -100,18 +101,24 @@ export default function NewCallScreen({ navigation }: any) {
 
         setSaving(true);
         try {
-            await callService.criarChamado({
+            const chamadoId = await callService.criarChamado({
                 description,
                 photoUri,
                 address,
             });
-            Alert.alert('Sucesso', 'Chamado registrado com sucesso!');
+
+            const notificationId = await scheduleSlaNotification(chamadoId);
+            if (notificationId) {
+                await callService.salvarSlaNotificationId(chamadoId, notificationId);
+            }
+
+            Alert.alert('Sucesso', 'Chamado registrado!');
             setDescription('');
             setPhotoUri(null);
             setAddress(null);
             navigation.navigate('CallList');
         } catch (error) {
-            Alert.alert('Erro', 'Não foi possível salvar o chamado.');
+            Alert.alert('Erro', 'Não foi possível salvar o chamado. Tente novamente.');
         } finally {
             setSaving(false);
         }

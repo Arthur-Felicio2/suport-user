@@ -10,6 +10,7 @@ import {
     View,
 } from 'react-native';
 import { callService, Chamado } from '../services/callService';
+import { cancelSlaNotification, shouldCancelSlaForStatus } from '../services/notificationService';
 import { COLORS } from '../theme/colors';
 
 export default function CallDetailScreen({ route }: any) {
@@ -39,6 +40,9 @@ export default function CallDetailScreen({ route }: any) {
     async function mudarStatus(novoStatus: string) {
         try {
             await callService.atualizarStatus(chamadoId, novoStatus);
+            if (shouldCancelSlaForStatus(novoStatus) && chamado?.slaNotificationId) {
+                await cancelSlaNotification(chamado.slaNotificationId);
+            }
             setChamado((prev) => (prev ? { ...prev, status: novoStatus } : null));
             Alert.alert('Sucesso', `Status alterado para "${novoStatus}".`);
         } catch (error) {
