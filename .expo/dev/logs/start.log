@@ -74,3 +74,72 @@
 {"_e":"metro:bundling:progress","_t":1788619206623,"id":"4","progress":0.9979518694571352,"total":987,"current":985}
 {"_e":"metro:bundling:progress","_t":1788619206752,"id":"4","progress":0.999,"total":987,"current":987}
 {"_e":"metro:bundling:done","_t":1788619207123,"id":"4","total":987,"ms":12796.7888}
+{"_e":"root:init","_t":1794844492494,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1794844492496,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794844492501,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1794844493826,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1794844495622,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1794844496862,"plugins":[]}
+{"_e":"metro:instantiate","_t":1794844503173,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"root:init","_t":1794844696803,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1794844696805,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794844696811,"mode":"development","files":[],"env":{}}
+{"_e":"root:init","_t":1794844722394,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1794844722396,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794844722402,"mode":"development","files":[],"env":{}}
+{"_e":"root:init","_t":1794844730776,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1794844730778,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794844730784,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1794844733558,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1794844734464,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1794844734851,"plugins":[]}
+{"_e":"metro:instantiate","_t":1794844740514,"atlas":false,"workers":8,"host":"::","port":8082}
+{"_e":"root:init","_t":1794844779655,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1794844779657,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794844779663,"mode":"development","files":[],"env":{}}
+{"_e":"root:init","_t":1794844868504,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1794844868506,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794844868512,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1794844869779,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1794844870819,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1794844871378,"plugins":[]}
+{"_e":"metro:instantiate","_t":1794844877507,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1794845026879,"id":"1","platform":"web","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1794845037971,"id":"1","total":593,"ms":11090.782}
+{"_e":"metro:bundling:started","_t":1794845042361,"id":"2","platform":"web","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1794845042401,"id":"2","total":1,"ms":39.6883}
+{"_e":"metro:client_log","_t":1794845042798,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1794845042800,"level":"warn","data":["[expo-notifications] Listening to push token changes is not yet fully supported on web. Adding a listener will have no effect."]}
+{"_e":"metro:client_log","_t":1794845042801,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1794845099861,"level":"warn","data":["The Geocoding API has been removed in SDK 49, use Place Autocomplete service instead(https://developers.google.com/maps/documentation/places/web-service/autocomplete)"]}
+{"_e":"metro:client_log","_t":1794845099866,"level":"warn","data":["The Geocoding API has been removed in SDK 49, use Place Autocomplete service instead(https://developers.google.com/maps/documentation/places/web-service/autocomplete)"]}
+{"_e":"metro:bundling:started","_t":1794845182065,"id":"5","platform":"web","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1794845182103,"id":"5","total":1,"ms":37.1909}
+{"_e":"metro:client_log","_t":1794845182443,"level":"info","data":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"]}
+{"_e":"metro:client_log","_t":1794845182444,"level":"warn","data":["[expo-notifications] Listening to push token changes is not yet fully supported on web. Adding a listener will have no effect."]}
+{"_e":"metro:client_log","_t":1794845182444,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"root:init","_t":1794845438975,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1794845438978,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794845438984,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1794845443719,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1794845444790,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1794845445254,"plugins":[]}
+{"_e":"metro:instantiate","_t":1794845452010,"atlas":false,"workers":8,"host":"::","port":8082}
+{"_e":"metro:client_log","_t":1794845459481,"level":"error","data":["Project is incompatible with this version of Expo Go\n\n• The installed version of Expo Go is for SDK 58.\n• The project you opened uses SDK 57.\n\nHow to fix this error:\nEither upgrade this project to SDK 58 or install an older version of Expo Go that is compatible with your project.\n\n<a href='https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/'>Learn how to upgrade to SDK 58.</a>\n\n<a href='https://expo.dev/go?sdkVersion=57&platform=android&device=true'>Learn how to install Expo Go for SDK 57</a>."]}
+{"_e":"metro:client_log","_t":1794845463395,"level":"error","data":["Project is incompatible with this version of Expo Go\n\n• The installed version of Expo Go is for SDK 58.\n• The project you opened uses SDK 57.\n\nHow to fix this error:\nEither upgrade this project to SDK 58 or install an older version of Expo Go that is compatible with your project.\n\n<a href='https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/'>Learn how to upgrade to SDK 58.</a>\n\n<a href='https://expo.dev/go?sdkVersion=57&platform=android&device=true'>Learn how to install Expo Go for SDK 57</a>."]}
+{"_e":"root:init","_t":1794845643228,"format":"v0-jsonl","version":"57.0.34"}
+{"_e":"env:mode","_t":1794845643230,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794845643236,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1794845644290,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1794845645344,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1794845645837,"plugins":[]}
+{"_e":"metro:instantiate","_t":1794845650455,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:client_log","_t":1794845657674,"level":"error","data":["Project is incompatible with this version of Expo Go\n\n• The installed version of Expo Go is for SDK 58.\n• The project you opened uses SDK 57.\n\nHow to fix this error:\nEither upgrade this project to SDK 58 or install an older version of Expo Go that is compatible with your project.\n\n<a href='https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/'>Learn how to upgrade to SDK 58.</a>\n\n<a href='https://expo.dev/go?sdkVersion=57&platform=android&device=true'>Learn how to install Expo Go for SDK 57</a>."]}
+{"_e":"root:init","_t":1794845702523,"format":"v0-jsonl","version":"57.0.34"}
+{"_e":"env:mode","_t":1794845702525,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1794845702530,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1794845703590,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1794845704692,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1794845705220,"plugins":[]}
+{"_e":"metro:instantiate","_t":1794845709722,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:client_log","_t":1794845715558,"level":"error","data":["Project is incompatible with this version of Expo Go\n\n• The installed version of Expo Go is for SDK 58.\n• The project you opened uses SDK 57.\n\nHow to fix this error:\nEither upgrade this project to SDK 58 or install an older version of Expo Go that is compatible with your project.\n\n<a href='https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/'>Learn how to upgrade to SDK 58.</a>\n\n<a href='https://expo.dev/go?sdkVersion=57&platform=android&device=true'>Learn how to install Expo Go for SDK 57</a>."]}
